@@ -1,0 +1,24 @@
+#formulario
+{
+	width:500px;
+	height:auto;
+	margin-top:0px;
+	border:solid #09F 2px;
+    border-radius: 8px;
+}
+
+#bloque1
+{
+	margin-left:25px;
+}
+#botones
+{
+	margin-top:10px;
+	margin-left:100px;
+}
+body
+{
+	background:url(../img/soccer_player.png);
+	background-repeat:no-repeat;
+	margin-left:100px;
+}

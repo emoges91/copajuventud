@@ -1,0 +1,199 @@
+#menu_top ul,
+#menu_top li,
+#menu_top a {
+    position: relative;
+}
+#menu_top:after,
+#menu_top ul:after {
+    display: block;
+    clear: both;
+}
+#menu_top a {
+    display: inline-block;
+    text-decoration: none;
+}
+#menu_top ul {
+    list-style: none;
+}
+#menu_top > ul {
+    float: left;
+}
+#menu_top > ul > li {
+    float: left;
+}
+#menu_top > ul > li > a {
+    color: #000;
+    font-size: 12px;
+}
+#menu_top > ul > li:hover:after {
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    border-bottom: 10px solid #db000b;
+    margin-left: -10px;
+}
+#menu_top > ul > li:first-child > a {
+    border-radius: 5px 0 0 0;
+    -moz-border-radius: 5px 0 0 0;
+    -webkit-border-radius: 5px 0 0 0;
+}
+#menu_top > ul > li.active:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #db000b;
+    margin-left: -10px;
+}
+
+#menu_top .has-sub {
+    /*z-index: 1;*/
+}
+#menu_top .has-sub:hover > ul {
+    display: block;
+}
+#menu_top .has-sub ul {
+    z-index: 20;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 40%;
+    margin-top: -11px;
+    width: 100%;
+}
+#menu_top .has-sub ul li {
+    *margin-bottom: -1px;
+    width: 100%;
+    min-width: 180px;
+}
+#menu_top .has-sub ul li a {
+    background: #E27A32;
+    border-bottom: 1px dotted #eab41b;
+    font-size: 11px;
+    display: block;
+    line-height: 120%;
+    padding: 10px;
+    color: #ffffff;
+}
+#menu_top .has-sub ul li:hover a {
+    background: #eab41b;
+}
+#menu_top .has-sub .has-sub:hover > ul {
+    display: block;
+}
+#menu_top .has-sub .has-sub ul {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+
+/* ---------------------second_menu--------------------------------- */
+#menu_second{
+ margin-bottom: -4px;   
+}
+
+#menu_second ul,
+#menu_second li,
+#menu_second a {
+    position: relative;
+}
+#menu_second:after,
+#menu_second ul:after {
+    display: block;
+    clear: both;
+}
+#menu_second a {
+    display: inline-block;
+}
+#menu_second ul {
+    list-style: none;
+}
+#menu_second > ul {
+    float: left;
+}
+#menu_second > ul > li {
+    float: left;
+}
+#menu_second > ul > li > a {
+    color: #000;
+    font-size: 12px;
+}
+#menu_second > ul > li:hover:after {
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    border-bottom: 10px solid #db000b;
+    margin-left: -10px;
+}
+#menu_second > ul > li:first-child > a {
+    border-radius: 5px 0 0 0;
+    -moz-border-radius: 5px 0 0 0;
+    -webkit-border-radius: 5px 0 0 0;
+}
+#menu_second > ul > li.active:after {
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #db000b;
+    margin-left: -10px;
+}
+
+#menu_second .has-sub {
+    z-index: 1;
+}
+#menu_second .has-sub:hover > ul {
+    display: block;
+}
+#menu_second .has-sub ul {
+    border: 0;
+    border-spacing: 0;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    /*margin-top: -11px;*/
+}
+#menu_second .has-sub ul li {
+    background: #E5E5E3;
+    min-width: 80px;
+    width: 100%;
+    border-bottom: 1px dotted #d6d6d6;
+    padding: 2px;
+    /*border-right: 1px dotted #eab41b;*/
+}
+#menu_second .has-sub ul li:hover {
+    background: #d6d6d6 ;
+}
+
+
+#menu_second .has-sub ul li a {
+    font-size: 11px;
+}
+
+#menu_second .has-sub .has-sub:hover > ul {
+    display: block;
+}
+#menu_second .has-sub .has-sub ul {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+

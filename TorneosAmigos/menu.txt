@@ -1,0 +1,18 @@
+<link type="text/css" rel="stylesheet" href="css/menu_amigos.css" />
+<div id="menu_amigos" align="left">
+	<ul>
+    	<li>Tabla General</li>
+       	<li><img src="../img/see_torneo.png" />Mostrar Torneo</li>
+       	<li>Grupos</li>
+        <li>Llaves</li>
+        <li><img src="../img/anterior.png" />Jornada anterior</li>
+        <li>Proxima Jornada</li>
+        <li><img src="../img/Referee cards.png" width="30px" height="30px" />Sancionados</li>
+        <li><img src="../img/goleo.gif" />Goleadores</li>
+        <li>Control Disciplinario</li>
+        <li>Arco menos batido</li>
+        <li><img src="../img/otros_doc.png" />Otros Documentos</li>
+	</ul>
+</div>
+
+Copiar imagenes en carpetas llamada img

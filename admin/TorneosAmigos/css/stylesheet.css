@@ -1,0 +1,76 @@
+.filas td{
+	border-left:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.filas td a{
+	text-decoration:none;
+	color:#06F;
+}
+
+/* editar torneo*/
+.encabezado td{
+	color: #ffffff; 
+	padding-left:10px;
+}
+
+.tablasSeguidas tr td{
+	margin-left:30px;
+	margin-right:30px;
+}
+
+.tablasSeguidas {
+	border:1px solid #999;
+}
+
+/*menu----------------------------------*/
+.menuBackEnd{
+	margin-bottom:15px;	
+}
+
+.menuBackEnd tr th {
+	background:#eee;
+}
+
+.menuBackEnd tr td {
+	background:#1D5AB6;
+	color:#eee;
+}
+
+.menuBackEnd tr th a{
+	color:#1D5AB6;
+	text-decoration:none;
+}
+
+.menuBackEnd tr th a:hover{
+	color:#59C5E3;
+	text-shadow:#ffffff 2px 1px 2px;
+	-moz-text-shadow:#ffffff 2px 1px 2px;
+	-o-text-shadow:#ffffff 2px 1px 2px;
+	-webkit-text-shadow:#ffffff 2px 1px 2px;
+	
+}
+
+.menuBackEnd tr td a{
+	color:#eee;
+	text-decoration:none;
+}
+.menuBackEnd tr td a:hover{
+	color:#fff;
+	text-shadow:#ffffff 2px 1px 2px;
+	-moz-text-shadow:#ffffff 2px 1px 2px;
+	-o-text-shadow:#ffffff 2px 1px 2px;
+	-webkit-text-shadow:#ffffff 2px 1px 2px;
+	
+}
+/* enlaces activos*/
+a:active{
+	color:#F60;
+	text-decoration:underline;
+}
+
+.resplandor:hover {
+	box-shadow:2px 2px 2px 2px #1D5AB6 ;
+}

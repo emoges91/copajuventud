@@ -1,0 +1,143 @@
+#div_tabla {
+	font: normal normal normal 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+ 
+.tabla_prin {
+	border-collapse: collapse;
+	border-collapse:collapse;
+	border:1px solid #FFCA5E;
+}
+ 
+.caption {
+	background: url(../img_tabla/tabla.png) #FFF repeat-x scroll center left ;
+	font: normal normal bold 13px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	padding: 5px;
+	font-size:16px;
+	color:#FFF;
+}
+
+.cabeza {
+	background: url(../img_tabla/encabezado.jpg) #FFF repeat-x scroll center ;
+	font: normal normal bold 13px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	padding: 10px;
+	font-size:16px;
+	color:#ffffff;
+}
+
+.cabeza_jug{
+	background: url(../img_tabla/encabezado2.jpg) #FFF repeat-x scroll center;
+	font: normal normal bold 13px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	padding: 10px;
+	font-size:16px;
+	color:#ffffff;
+	} 
+	
+.cabeza_asi{
+	background: url(../img_tabla/encabezado3.jpg) #FFF repeat-x scroll center;
+	font: normal normal bold 13px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	padding: 10px;
+	font-size:16px;
+	color:#ffffff;
+}
+ 
+.cabeza_rep{
+	background: url(../img_tabla/encabezado4.jpg) #FFF repeat-x scroll center ;
+	font: normal normal bold 13px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	padding: 10px;
+	font-size:16px;
+	color:#ffffff;
+} 
+
+.cabeza_rep2{
+	background: url(../img_tabla/encabezado5.jpg) #FFF repeat-x scroll center ;
+	font: normal normal bold 13px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	padding: 10px;
+	font-size:16px;
+	color:#ffffff;
+}  
+ 
+/*titulo*/ 
+#titulo td{
+	background: url(../img_tabla/subtitulo.jpg) #FFF repeat-x scroll center left ;
+	border-bottom: 1px solid #CCC;
+	font: normal normal normal 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	padding: 5px;
+	position: relative;
+	border-left:1px solid #FFCA5E;
+	border-bottom:1px solid #FFCA5E;
+	border-right: 1px solid #FFCA5E;
+	text-align: left
+	font-size:14px;
+}
+ 
+#titulo td{
+	position: inherit
+}
+ 
+ /*cuerpo*/
+.normal th,.normal td {
+	background: url(../img_tabla/bg_td1.jpg) repeat-x top;
+	font: normal normal normal 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	padding: 5px;
+	text-align: left;
+	vertical-align: top;
+	border-top: 1px solid #FFCA5E;
+	border-right: 1px solid #DDDDDD;
+	font-size:11px;
+}
+ 
+.odd th,.odd td {
+	background:#FFF8E8 url(../img_tabla/bg_td2.jpg) repeat-x scroll top;
+	font: normal normal normal 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	padding: 5px;
+	text-align: left;
+	vertical-align: top;
+	border-top: 1px solid #FFCA5E;
+	border-right: 1px solid #DDDDDD;
+	font-size:11px;
+}
+ 
+#cuerpo:hover th,#cuerpo:hover td,.odd:hover th,.odd:hover td {
+	background: url(../img_tabla/dtablerow.gif) #F8A704 repeat-x scroll center left;
+	color: #FFF;
+	padding: 5px;
+	text-align: left;
+	vertical-align: top
+}
+ 
+#cuerpo a,#cuerpo a:link,#cuerpo a:visited {
+	color: #009;
+	text-decoration: none
+}
+ 
+#cuerpo a:hover {
+	color: #009;
+	text-decoration: underline
+}
+ 
+#cuerpo:hover th a,#cuerpo:hover td a,#cuerpo.odd:hover th a,#cuerpo.odd:hover td a {
+	color: #FFF;
+	text-decoration: none  /*cuando el cursor encima del tr*/
+}
+ 
+#cuerpo:hover th a:hover,#cuerpo:hover td a:hover,#cuerpo.odd:hover th a:hover,#cuerpo.odd:hover td a:hover {
+	color: #fff;
+	text-decoration: underline    /*cuando el cursor esta encima del link*/
+}
+ 
+.pie th {
+	background: url(../img_tabla/subtitulo.jpg) #FFF repeat scroll center left;
+	border-top: 1px solid #FFCA5E;
+	font: normal normal bold 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	padding: 5px;
+	text-align: right;
+	border-right: 1px solid #FFCA5E;
+}
+ 
+.pie td {
+	background: url(../img_tabla/subtitulo.jpg) #FFF repeat scroll center left;
+	border-top: 1px solid #FFCA5E;
+	font: italic normal normal 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	padding: 5px;
+	border-right: 1px solid #FFCA5E;
+}

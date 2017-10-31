@@ -1,0 +1,59 @@
+#links {
+	color: #FFF;
+	text-decoration: none;
+}
+.hiper {
+	color:#930;
+	text-decoration: none;
+}
+
+.hiper:hover {
+	font-size:16px;
+	color:#Ffca5e;
+}
+
+#td_borde{
+	border-bottom:1px solid #FFCA5E;
+}
+
+.tabla_prin {
+	border-collapse: collapse;
+	border-collapse:collapse;
+	border:1px solid #FFCA5E;
+}
+ /*cuerpo*/
+.normal th,.normal td {
+	background: url(../img_tabla/bg_td1.jpg) repeat-x top;
+	font: normal normal normal 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	padding: 5px;
+	text-align: left;
+	vertical-align: top;
+	border-top: 1px solid #FFCA5E;
+	border-right: 1px solid #DDDDDD;
+	font-size:11px;
+}
+ 
+/*titulo*/ 
+.titulo{
+	background: url(../img_tabla/subtitulo.jpg) #FFF repeat-x scroll center left ;
+	border-bottom: 1px solid #CCC;
+	font: normal normal normal 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	padding: 5px;
+	position: relative;
+	border-left:1px solid #FFCA5E;
+	border-bottom:1px solid #FFCA5E;
+	border-right: 1px solid #FFCA5E;
+	text-align: left;
+	position: inherit;
+	font-size:12px;
+} 
+.odd {
+	background:#FFF8E8 url(../img_tabla/bg_td2.jpg) repeat-x scroll top;
+	font: normal normal normal 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	padding: 5px;
+	text-align: left;
+	vertical-align: top;
+	border-top: 1px solid #FFCA5E;
+	border-right: 1px solid #DDDDDD;
+	font-size:11px;
+}

@@ -1,0 +1,23 @@
+
+    <script language="javascript" type="text/javascript">
+        function iFrameHeight() {
+            var h = 0;
+            if (!document.all) {
+                h = document.getElementById('scroll').contentDocument.height;
+                document.getElementById('scroll').style.height = h + 'px' - 5;
+            } else if (document.all) {
+                h = document.frames('scroll').document.body.scrollHeight;
+                document.all.scroll.style.height = h + 0 + 'px';
+            }
+        }
+    </script>
+    <iframe onload="iFrameHeight()" id="scroll"
+            name=""
+            src="patrocinador_oficial.php"
+            width="170px"
+            height="127px"
+            scrolling="no"
+            align="left"
+            frameborder="0"
+            class="wrapper">
+    </iframe>
