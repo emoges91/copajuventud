@@ -4,9 +4,9 @@
 //$pass='COPAROTATIVA2010';
 //$bd='bdcj';
 $servidor='localhost';
-$usuario='casa2014_app';
-$pass='mqqZ8Io0t(sb';
-$bd='casa2014_bd';
+$usuario='copa_juventud_db';
+$pass='1234pass';
+$bd='copa_juventud_db';
 
 if($_SERVER['SERVER_NAME']=='localhost'){
 	$servidor='localhost';

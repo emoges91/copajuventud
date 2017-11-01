@@ -12,9 +12,9 @@ if (@!isset($_COOKIE['cdljcrcokies']) and @$_COOKIE['cdljcrcokies'] == '') {
 //$base_de_datos='bdcj';
 
 $servidor = 'localhost';
-$usuario = 'casa2014_app';
-$pass = 'mqqZ8Io0t(sb';
-$base_de_datos = 'casa2014_bd';
+$usuario = 'copa_juventud_db';
+$pass = '1234pass';
+$base_de_datos = 'copa_juventud_db';
 
 
 if ($_SERVER['SERVER_NAME'] == 'localhost') {
